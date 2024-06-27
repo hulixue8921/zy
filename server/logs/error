@@ -1,0 +1,328 @@
+2023-08-22 18:11:23,941 - base_events.py[line:1758] - ERROR: Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<receive() done, defined at /Users/wuweihua/PycharmProjects/pythonProject/4.py:4> exception=ZeroDivisionError('division by zero')>
+Traceback (most recent call last):
+  File "/Users/wuweihua/PycharmProjects/pythonProject/4.py", line 7, in receive
+    10/0
+ZeroDivisionError: division by zero
+2023-08-23 10:43:51,863 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{}
+2023-08-23 10:44:17,343 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load"}
+2023-08-23 15:23:55,353 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-23 15:23:56,181 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-23 15:47:56,938 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": "1111"}
+2023-08-23 16:05:20,907 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-23 16:05:21,722 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-23 16:09:58,994 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": "11111"}
+2023-08-24 09:09:38,749 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 09:23:50,296 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 09:50:48,333 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 09:51:16,102 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 09:54:00,210 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 09:56:35,028 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 09:57:03,974 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:05,392 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:06,020 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:06,347 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:06,721 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:07,081 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:07,677 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:08,120 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:08,528 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:08,885 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:09,365 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:10,262 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:12,012 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:12,816 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:13,529 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:14,019 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:14,314 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:14,552 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:14,964 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:15,253 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:15,599 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:15,975 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:16,287 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:16,597 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:16,807 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:17,133 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:17,453 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:17,936 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:18,258 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:18,667 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:18,924 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:19,205 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:19,446 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:19,602 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:20,031 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:20,250 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:20,645 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:20,968 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:21,155 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:21,546 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:21,904 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:22,266 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:22,469 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:22,639 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:22,816 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:23,294 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:23,570 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:23,755 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:24,403 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:25,172 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:25,476 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:25,690 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 09:57:25,823 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:01:31,837 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:01:32,711 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:01:34,253 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:01:38,277 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:01:38,958 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:10:10,482 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:13:06,873 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:34:36,927 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:34:37,823 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:34:38,248 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:34:38,844 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:34:39,356 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:34:39,586 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:35:02,094 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:35:04,129 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:35:04,589 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:35:04,944 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:35:05,357 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:35:06,700 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:47:32,372 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:33,220 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:33,559 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:33,785 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:34,062 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:34,536 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:34,814 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:35,017 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:35,186 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:35,476 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:35,786 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:36,077 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:36,353 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:36,815 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:47:37,187 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 10:54:23,157 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:39,148 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:39,807 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:40,418 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:43,458 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:43,971 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:44,268 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:44,743 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:48,043 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:48,683 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:49,323 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:49,764 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:56:50,055 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:39,471 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:41,855 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:42,008 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:42,421 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:42,709 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:43,037 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:43,294 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:43,715 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:44,043 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:44,251 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:44,440 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:44,905 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:45,433 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:45,974 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:46,307 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:46,599 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:46,987 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:47,364 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:47,777 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:48,801 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:49,279 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:49,524 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:49,781 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:50,024 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:50,314 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:50,576 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:50,836 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:51,175 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:51,481 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:51,841 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:52,100 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:52,388 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:52,677 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:53,070 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:53,364 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:54,584 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:56,095 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:56,584 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:56,878 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:57,357 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 10:57:57,787 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:07,775 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:09,085 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:10,079 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:10,769 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:11,445 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:12,173 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:12,964 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:13,562 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:14,287 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:14,958 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:15,605 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:16,174 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:16,984 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:00:18,592 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:00:19,925 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:10:48,089 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:10:49,120 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:10:49,871 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:12:30,881 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:12:31,925 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:12:32,756 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:12:33,380 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:12:39,116 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": "123"}
+2023-08-24 11:16:45,518 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:16:46,368 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:16:47,349 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:16:48,007 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:16:48,538 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:16:49,752 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:16:49,942 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:16:50,097 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:17:44,787 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:17:46,018 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:17:46,923 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:17:47,446 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:01,228 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:01,894 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:02,566 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:03,192 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:03,958 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:04,954 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:26,840 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:30,531 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:31,038 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:31,398 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:31,620 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:32,434 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:32,676 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:32,916 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:33,547 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:33,718 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:33,888 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:34,457 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:36,167 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:36,482 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:37,254 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:37,445 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:18:37,920 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:38,109 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:18:39,082 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:24:17,322 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:24:17,970 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:24:18,530 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:27:36,052 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:27:37,093 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:27:37,621 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:27:38,234 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:27:39,082 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 11:27:47,853 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 11:27:48,626 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 13:36:46,804 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 13:40:22,450 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 13:40:33,230 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 13:47:32,261 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 13:47:33,029 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 13:47:33,430 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 14:03:04,076 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "reg", "username": "", "passwd": ""}
+2023-08-24 14:14:03,393 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 14:14:30,210 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "", "passwd": ""}
+2023-08-24 14:15:10,221 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "load", "username": "root", "passwd": ""}
+2023-08-25 14:45:23,866 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 14:45:47,144 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 14:49:43,837 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 14:59:49,832 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 15:01:41,681 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": []}
+2023-08-25 15:03:06,719 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 15:03:56,455 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": []}
+2023-08-25 15:05:26,533 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": []}
+2023-08-25 15:06:01,529 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 15:06:32,039 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 15:08:46,524 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 15:09:56,950 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-25 15:10:57,669 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "listUsers", "token": null}
+2023-08-29 17:52:17,844 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:19,859 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:20,058 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:20,211 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:20,434 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:20,611 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:20,805 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:20,980 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:52:21,155 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-29 17:53:20,898 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "delUser", "userId": "12"}
+2023-08-30 17:30:35,189 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiJ9LCJleHAiOjE2OTM0MjM4MjQuMjQ1NDI2LCJpc3MiOiJseXJyYSJ9.v_Cz4o4YaJGpSJ9v3gkfags7fLeEl7egUD5sCsHB1Co", "passwd": ""}
+2023-08-30 17:31:50,269 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiJ9LCJleHAiOjE2OTM0MjM4OTguMDg4NjIsImlzcyI6Imx5cnJhIn0.bpSUIHyX6D8bucyhwVobFi_3MX_80gkriIh-KQsLlOY", "passwd": "123456"}
+2023-08-30 17:31:52,435 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiJ9LCJleHAiOjE2OTM0MjM4OTguMDg4NjIsImlzcyI6Imx5cnJhIn0.bpSUIHyX6D8bucyhwVobFi_3MX_80gkriIh-KQsLlOY", "passwd": "123456"}
+2023-08-30 17:31:52,647 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiJ9LCJleHAiOjE2OTM0MjM4OTguMDg4NjIsImlzcyI6Imx5cnJhIn0.bpSUIHyX6D8bucyhwVobFi_3MX_80gkriIh-KQsLlOY", "passwd": "123456"}
+2023-08-30 17:31:52,871 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiJ9LCJleHAiOjE2OTM0MjM4OTguMDg4NjIsImlzcyI6Imx5cnJhIn0.bpSUIHyX6D8bucyhwVobFi_3MX_80gkriIh-KQsLlOY", "passwd": "123456"}
+2023-08-30 17:32:38,009 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiJ9LCJleHAiOjE2OTM0MjM5NDkuNjc5OTI2LCJpc3MiOiJseXJyYSJ9.J3A4oZusuDAZS4jsPl9dtRnusSLeog0ux-UWo79EbUc", "passwd": "123456"}
+2023-09-01 15:03:11,755 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:12,809 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:13,124 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:13,291 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:13,458 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:13,641 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:13,824 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:14,041 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:14,208 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:14,391 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:14,590 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:17,308 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:17,709 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:17,910 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:18,327 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:18,578 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-01 15:03:18,793 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "changePasswd", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5MzU1MTcyOC42MTEyNDgsImlzcyI6Imx5cnJhIn0.VaMXliAiGcaX5rIWnUuKFZl6vS871iGTg4YCbiM-0nQ", "passwd": "", "userId": "6"}
+2023-09-07 14:07:28,746 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "addRole", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDA3MDQ0Mi41NDY4MDE4LCJpc3MiOiJseXJyYSJ9.jpacC2lVScuSvH4NVpm948UW2IO99Rz490kEhZUUF5A", "roleName": ""}
+2023-09-07 14:09:28,451 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "addRole", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDA3MDU1OC4yNDkyNTExLCJpc3MiOiJseXJyYSJ9.gVaX5xnSubMMwfyufZ1j9aWU_CEXDTR39Y9j62WOcrI", "roleName": ""}
+2023-09-07 14:13:32,265 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "addRole", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDA3MDc5Ni44MjA5MjcsImlzcyI6Imx5cnJhIn0.k1sJNToTNP0mtbuvsTf3pyF6hEIUY3iyELCNYV02HhY", "roleName": ""}
+2023-09-07 14:13:34,414 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "addRole", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDA3MDc5Ni44MjA5MjcsImlzcyI6Imx5cnJhIn0.k1sJNToTNP0mtbuvsTf3pyF6hEIUY3iyELCNYV02HhY", "roleName": ""}
+2023-09-07 14:13:34,665 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "addRole", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDA3MDc5Ni44MjA5MjcsImlzcyI6Imx5cnJhIn0.k1sJNToTNP0mtbuvsTf3pyF6hEIUY3iyELCNYV02HhY", "roleName": ""}
+2023-09-07 14:13:34,881 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "addRole", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDA3MDc5Ni44MjA5MjcsImlzcyI6Imx5cnJhIn0.k1sJNToTNP0mtbuvsTf3pyF6hEIUY3iyELCNYV02HhY", "roleName": ""}
+2023-09-08 16:59:07,461 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDE2NzEzNy44MjQyMzE5LCJpc3MiOiJseXJyYSJ9.k7GyKF8L3SilZcSzfylk3Ur6XLqDvg_fcXUvuiHhWtY", "memIds": [3]}
+2023-09-08 16:59:56,801 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDE2NzE4Ni42NDk0NzUsImlzcyI6Imx5cnJhIn0.EkDts6osr9sCR7dc7LVGMNwJLefYelDm63I_anX6_g4", "memIds": [3]}
+2023-09-08 17:00:41,384 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDE2NzIzMi45NjMzNjU4LCJpc3MiOiJseXJyYSJ9.9dEJjfQ3zKB8eorqiVCWQcjS2azDCUP8_XCRTEMJu5w", "memIds": [3]}
+2023-09-08 17:58:14,079 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIl0sInVzZXJuYW1lIjoicm9vdCIsInBhc3N3ZCI6IjEyMzQ1NiIsInJvbGVJZCI6Mn0sImV4cCI6MTY5NDE3MDY4MC43NjczNSwiaXNzIjoibHlycmEifQ.YPtf7EurvTP_lRZFmCZLsQzZHZdnPYipoIfO9xSkWXQ", "memIds": [], "roleId": "10"}
+2023-09-21 18:04:56,569 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "app", "api": "addApp", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mjk0MjgzLjk2MTkyMzEsImlzcyI6Imx5cnJhIn0.LNnTKzqwUUuvwLjJilu9T0KJfY4ZpLRUlkwfXsSw1OQ", "git": "git@gitlab.kuailaizhiying.com:front/web/jy_miniprogram.git", "project": "front/web/jy_miniprogram", "name": ""}
+2023-09-21 18:08:34,188 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "app", "api": "addApp", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mjk0NTAwLjc1Mzk2MywiaXNzIjoibHlycmEifQ.aK1uc9OHnxOuyl5vA6sivN9n8URs3sHNekAhFrExj3A", "git": "git@gitlab.kuailaizhiying.com:front/web/jy_miniprogram.git", "project": "front/web/jy_miniprogram", "name": ""}
+2023-09-21 18:29:37,365 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "app", "api": "addApp", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mjk1NzEyLjk2MTMyMiwiaXNzIjoibHlycmEifQ.l7Qy35lLF_tM06K9CoKm2n6Obs4YXtAupgoUcv3HEKA", "git": "git@gitlab.kuailaizhiying.com:front/web/jy_miniprogram.git", "project": "front/web/jy_miniprogram", "name": ""}
+2023-09-22 16:42:53,812 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1NzE2LjIyMDM0OCwiaXNzIjoibHlycmEifQ.lL-NBatJfip3XZ-XsKvlwydIyYgrqFa2S9vNj3YgzhY", "memIds": [], "roleId": "1"}
+2023-09-22 16:43:12,149 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1NzE2LjIyMDM0OCwiaXNzIjoibHlycmEifQ.lL-NBatJfip3XZ-XsKvlwydIyYgrqFa2S9vNj3YgzhY", "memIds": [], "roleId": "1"}
+2023-09-22 16:43:38,281 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1NzE2LjIyMDM0OCwiaXNzIjoibHlycmEifQ.lL-NBatJfip3XZ-XsKvlwydIyYgrqFa2S9vNj3YgzhY", "memIds": [], "roleId": "5"}
+2023-09-22 16:43:46,989 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1NzE2LjIyMDM0OCwiaXNzIjoibHlycmEifQ.lL-NBatJfip3XZ-XsKvlwydIyYgrqFa2S9vNj3YgzhY", "memIds": [], "roleId": "1"}
+2023-09-22 16:43:54,052 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1NzE2LjIyMDM0OCwiaXNzIjoibHlycmEifQ.lL-NBatJfip3XZ-XsKvlwydIyYgrqFa2S9vNj3YgzhY", "memIds": [], "roleId": "1"}
+2023-09-22 16:43:58,560 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1NzE2LjIyMDM0OCwiaXNzIjoibHlycmEifQ.lL-NBatJfip3XZ-XsKvlwydIyYgrqFa2S9vNj3YgzhY", "memIds": [], "roleId": "1"}
+2023-09-22 16:45:14,305 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1OTA2LjE2MTE5NiwiaXNzIjoibHlycmEifQ.o7zvfMptbdvvBXI8rs-R0J-j1nhKW_1Aig82g_c5ufw", "memIds": [], "roleId": "1"}
+2023-09-22 16:46:17,305 - myExcept.py[line:42] - ERROR: 数据格式不对，缺少必要参数{"model": "user", "api": "roleMem", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InJpZ2h0IjpbImFkbWluIiwiYXBwOjpjbXMiXSwidXNlcm5hbWUiOiJyb290IiwicGFzc3dkIjoiMTIzNDU2Iiwicm9sZUlkIjoyfSwiZXhwIjoxNjk1Mzc1OTA2LjE2MTE5NiwiaXNzIjoibHlycmEifQ.o7zvfMptbdvvBXI8rs-R0J-j1nhKW_1Aig82g_c5ufw", "memIds": [], "roleId": "5"}
+2023-09-27 11:17:06,371 - base_events.py[line:1758] - ERROR: Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<Main.receive() done, defined at /Users/wuweihua/PycharmProjects/pythonProject/main.py:47> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "/Users/wuweihua/PycharmProjects/pythonProject/main.py", line 58, in receive
+    await writer.drain()
+  File "/Users/wuweihua/miniconda3/envs/pythonProject/lib/python3.10/asyncio/streams.py", line 371, in drain
+    await self._protocol._drain_helper()
+  File "/Users/wuweihua/miniconda3/envs/pythonProject/lib/python3.10/asyncio/streams.py", line 167, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+2023-09-27 11:27:54,305 - base_events.py[line:1758] - ERROR: Task exception was never retrieved
+future: <Task finished name='Task-236' coro=<Main.receive() done, defined at /Users/wuweihua/PycharmProjects/pythonProject/main.py:47> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "/Users/wuweihua/PycharmProjects/pythonProject/main.py", line 58, in receive
+    await writer.drain()
+  File "/Users/wuweihua/miniconda3/envs/pythonProject/lib/python3.10/asyncio/streams.py", line 371, in drain
+    await self._protocol._drain_helper()
+  File "/Users/wuweihua/miniconda3/envs/pythonProject/lib/python3.10/asyncio/streams.py", line 167, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
