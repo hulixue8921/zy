@@ -103,7 +103,14 @@ class AppHandle(Ui_appHandleWidget):
         except Exception:
             pass
         else:
-            QMessageBox.information(self.widget, "提示信息", result['message'])
+            if result['code'] == 200:
+                QMessageBox.information(self.widget, "提示信息", result['message'])
+            elif result['code'] == 402:
+                QMessageBox.information(self.widget, "提示信息", "token已过期， 请重新登陆")
+                self.main.tokenTimeout()
+            else:
+                QMessageBox.information(self.widget, "提示信息", result['message'])
+
 
     def stop(self):
         button = self.widget.sender()
@@ -121,7 +128,13 @@ class AppHandle(Ui_appHandleWidget):
         except Exception:
             pass
         else:
-            QMessageBox.information(self.widget, "提示信息", result['message'])
+            if result['code'] == 200:
+                QMessageBox.information(self.widget, "提示信息", result['message'])
+            elif result['code'] == 402:
+                QMessageBox.information(self.widget, "提示信息", "token已过期， 请重新登陆")
+                self.main.tokenTimeout()
+            else:
+                QMessageBox.information(self.widget, "提示信息", result['message'])
 
     def fabu(self):
         button = self.widget.sender()
@@ -151,7 +164,14 @@ class AppHandle(Ui_appHandleWidget):
         except Exception:
             pass
         else:
-            QMessageBox.information(self.widget, "提示信息", result['message'])
+            if result['code'] == 200:
+                QMessageBox.information(self.widget, "提示信息", result['message'])
+            elif result['code'] == 402:
+                QMessageBox.information(self.widget, "提示信息", "token已过期， 请重新登陆")
+                self.main.tokenTimeout()
+            else:
+                QMessageBox.information(self.widget, "提示信息", result['message'])
+
 
     def getFabuId(self, appName, envName):
         for fabu in self.fabus['fabu']:
