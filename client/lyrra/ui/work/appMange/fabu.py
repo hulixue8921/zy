@@ -31,6 +31,7 @@ class Fabu(Ui_fabuWidget):
         self.cacelButton.clicked.connect(self.cacelFun)
         self.sureButton.clicked.connect(self.sureFun)
         self.widget.setWindowTitle(appName + ":" + envName + ":" + "发布")
+        self.tmpData = None
 
     def initData(self):
         self.initLineFun()
@@ -90,7 +91,11 @@ class Fabu(Ui_fabuWidget):
             except Exception:
                 pass
             else:
-                self.mySignal.t.emit(result['message'])
+                if result['code'] == 200:
+                    self.mySignal.t.emit('200')
+                    self.tmpData = result['message']
+                elif result['code'] == 402:
+                    self.mySignal.t.emit('402')
 
         t1 = Thread(target=fun)
         t1.start()
@@ -101,8 +106,14 @@ class Fabu(Ui_fabuWidget):
             if name == i['name']:
                 self.gitLine.setText(i['message'])
 
-    def info(self, message):
-        QMessageBox.information(self.main.workWidget, "提示信息", message)
+    def info(self, result):
+        if result == '200':
+            QMessageBox.information(self.main.workWidget, "提示信息", self.tmpData)
+        elif result == '402':
+            QMessageBox.information(self.main.workWidget, "提示信息", "token已过期， 请重新登陆")
+           # self.widget.deleteLater()
+            self.main.tokenTimeout()
+
 
     def d(self):
         self.widget.deleteLater()
