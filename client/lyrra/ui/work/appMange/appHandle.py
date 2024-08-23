@@ -97,11 +97,14 @@ class AppHandle(Ui_appHandleWidget):
         sentData['token'] = self.main.token
         sentData['fabuId'] = fabuId
         sentData['type'] = "start"
+
+        projectName = self.getProjectName(appName, envName)
+        sentData['projectName'] = projectName
         try:
             server = MySocket()
             result = server.send(sentData)
         except Exception:
-            pass
+            QMessageBox.information(self.widget, "提示信息", "网络中断")
         else:
             if result['code'] == 200:
                 QMessageBox.information(self.widget, "提示信息", result['message'])
@@ -122,11 +125,14 @@ class AppHandle(Ui_appHandleWidget):
         sentData['token'] = self.main.token
         sentData['fabuId'] = fabuId
         sentData['type'] = "stop"
+
+        projectName = self.getProjectName(appName, envName)
+        sentData['projectName'] = projectName
         try:
             server = MySocket()
             result = server.send(sentData)
         except Exception:
-            pass
+            QMessageBox.information(self.widget, "提示信息", "网络中断")
         else:
             if result['code'] == 200:
                 QMessageBox.information(self.widget, "提示信息", result['message'])
@@ -154,15 +160,17 @@ class AppHandle(Ui_appHandleWidget):
         appName = self.tableWidget.item(row, 0).text()
         envName = self.tableWidget.item(row, 1).text()
         fabuId = self.getFabuId(appName, envName)
+        projectName = self.getProjectName(appName, envName)
         sentData = {'model': 'app', 'api': 'appAction'}
         sentData['token'] = self.main.token
         sentData['fabuId'] = fabuId
         sentData['type'] = "restart"
+        sentData['projectName'] = projectName
         try:
             server = MySocket()
             result = server.send(sentData)
         except Exception:
-            pass
+            QMessageBox.information(self.widget, "提示信息", "网络中断")
         else:
             if result['code'] == 200:
                 QMessageBox.information(self.widget, "提示信息", result['message'])

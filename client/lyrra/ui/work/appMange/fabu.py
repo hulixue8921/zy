@@ -45,7 +45,7 @@ class Fabu(Ui_fabuWidget):
                 result = server.send(sentData)
                 self.gitProjectInfo = result
             except Exception:
-                pass
+                QMessageBox.information(self.widget, "提示信息", "网络中断")
             else:
                 for i in result['project']:
                     self.gitCombox.addItem(i['name'])
@@ -59,7 +59,7 @@ class Fabu(Ui_fabuWidget):
                 result = server.send(sentData)
                 self.gitProjectInfo = result
             except Exception:
-                pass
+                QMessageBox.information(self.widget, "提示信息", "网络中断")
             else:
                 for i in result['project']:
                     self.gitCombox.addItem(i['name'])
@@ -89,7 +89,7 @@ class Fabu(Ui_fabuWidget):
                 server = MySocket()
                 result = server.send(sentData)
             except Exception:
-                pass
+                QMessageBox.information(self.widget, "提示信息", "网络中断")
             else:
                 if result['code'] == 200:
                     self.mySignal.t.emit('200')
@@ -113,6 +113,7 @@ class Fabu(Ui_fabuWidget):
             QMessageBox.information(self.main.workWidget, "提示信息", "token已过期， 请重新登陆")
            # self.widget.deleteLater()
             self.main.tokenTimeout()
+
 
 
     def d(self):
