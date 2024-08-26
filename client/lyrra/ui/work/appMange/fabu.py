@@ -105,6 +105,8 @@ class Fabu(Ui_fabuWidget):
 
     def info(self, message):
         QMessageBox.information(self.main.workWidget, "提示信息", message)
+        if message == "token问题或过期":
+            self.main.tokenTimeout()
 
     def d(self):
         self.widget.deleteLater()
