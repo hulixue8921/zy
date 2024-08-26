@@ -44,8 +44,9 @@ class Fabu(Ui_fabuWidget):
                 server = MySocket()
                 result = server.send(sentData)
                 self.gitProjectInfo = result
-            except Exception:
+            except Exception as e:
                 QMessageBox.information(self.widget, "提示信息", "网络中断")
+
             else:
                 for i in result['project']:
                     self.gitCombox.addItem(i['name'])
@@ -96,6 +97,8 @@ class Fabu(Ui_fabuWidget):
                     self.tmpData = result['message']
                 elif result['code'] == 402:
                     self.mySignal.t.emit('402')
+                elif result['code'] == 405:
+                    self.mySignal.t.emit('405')
 
         t1 = Thread(target=fun)
         t1.start()
@@ -111,10 +114,9 @@ class Fabu(Ui_fabuWidget):
             QMessageBox.information(self.main.workWidget, "提示信息", self.tmpData)
         elif result == '402':
             QMessageBox.information(self.main.workWidget, "提示信息", "token已过期， 请重新登陆")
-           # self.widget.deleteLater()
             self.main.tokenTimeout()
-
-
+        elif result == '405':
+            QMessageBox.information(self.main.workWidget, "提示信息", "此发布接口不能重复提交")
 
     def d(self):
         self.widget.deleteLater()
