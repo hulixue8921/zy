@@ -24,6 +24,11 @@ class MySocket(socket.socket):
     def send(self, data):
         sentData = json.dumps(data) + '\n'
         super().send(sentData.encode('utf-8'))
-        getData = self.recv(20480)
+        getData = b''
+        while True:
+            chunk=self.recv(1024)
+            if not chunk:
+                break
+            getData += chunk
         getData = json.loads(getData)
         return getData
