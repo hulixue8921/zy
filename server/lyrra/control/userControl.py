@@ -179,6 +179,7 @@ class UserControl:
         sentData = {'code': 200}
         await self.user.addRole(data['roleName'])
         socket.write(json.dumps(sentData).encode("utf-8"))
+        #await self.user.addRole()
 
     @app.register('addMem')
     @Lyrra.checkoutKv("token", "memName")

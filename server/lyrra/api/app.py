@@ -101,15 +101,14 @@ class App:
                 await trans.commit()
         return data
 
-    async def appAction(self, envName, appName, actionType):
+    async def appAction(self, envName, appName, actionType, gitAddress):
         def fun():
-            script = "scripts" + "/" + appName + "-" + envName + "-" + actionType + ".sh"
-            if os.path.exists(script):
-                res = subprocess.run(['bash', script], stdout=subprocess.PIPE, encoding='utf8')
-                code = res.returncode
-                return res.stdout
+            res = subprocess.run(['bash', actionType+".sh" , appName, envName, gitAddress ], stdout=subprocess.PIPE, encoding='utf8')
+            code = res.returncode
+            if code == 0:
+               return res.stdout
             else:
-                return script + "执行脚本不存在"
+               return appName + "-" + envName + "-" + actionType + "操作失败 请联系管理员查看相关问题情况"
 
         loop = asyncio.get_event_loop()
         fetu = loop.run_in_executor(None, fun)
@@ -119,14 +118,12 @@ class App:
     async def fabu(self, envName, appName, gitAddress, gitCommit):
         def fun():
             data = {}
-            script = "scripts" + "/" + appName + "-" + envName + "-" + "fabu" + ".sh"
-            if os.path.exists(script):
-                res = subprocess.run(['bash', script, gitAddress, gitCommit], stdout=subprocess.PIPE, encoding='utf8')
-                data['code'] = res.returncode
-                data['message'] = res.stdout
+            res = subprocess.run(['bash', 'fabu.sh',appName,envName, gitAddress, gitCommit], stdout=subprocess.PIPE, encoding='utf8')
+            data['code'] = res.returncode
+            if data['code'] == 0:
+               data['message'] = appName + "-" + envName + "fabu success !!"
             else:
-                data['code'] = 1
-                data['message'] = script + "执行脚本不存在"
+               data['message'] = appName + "-" + envName + "fabu fail !! please connect admin to see log  "
             return data
 
         loop = asyncio.get_event_loop()
@@ -189,3 +186,23 @@ class App:
                 await  trans.commit()
 
         return data
+    
+    async def getGitAddressFromProjectName(self, projectName):
+        data = []
+        mysqlEn = await self.mysql.getEn()
+        async with mysqlEn.acquire() as conn:
+            trans = await conn.begin()
+            try:
+                proxy = await conn.execute(
+                    sa.select(self.tables.t_app.c.git).where(
+                        self.tables.t_app.c.project == projectName
+                    )
+                )
+                async for i in proxy:
+                    data.append({"git": i[0]})
+            except Exception:
+                await  trans.rollback()
+            else:
+                await  trans.commit()
+        return data[0]['git'] 
+

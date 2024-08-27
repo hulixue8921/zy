@@ -13,7 +13,7 @@ class AppControl:
         self.app = App()
 
     @app.register("appAction")
-    @Lyrra.checkoutKv("token", "fabuId", "type")
+    @Lyrra.checkoutKv("token", "fabuId", "type" , "projectName")
     @Lyrra.denyRedo(["fabuId", "type"])
     async def appAction(self, *args, **kwargs):
         data = kwargs['data']
@@ -35,8 +35,9 @@ class AppControl:
             fabus = await self.app.listFabu(roleId)
             for i in fabus:
                 if data['fabuId'] == i['fabuId']:
+                    gitAddress = await self.app.getGitAddressFromProjectName(data['projectName'])
                     sentData['message'] = await self.app.appAction(i['envName'], i['appName'],
-                                                                   data['type'])
+                                                                   data['type'],gitAddress)
                     socket.write(json.dumps(sentData).encode('utf-8'))
 
     @app.register("fabu")

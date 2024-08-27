@@ -1,0 +1,11 @@
+1、安装环境 centos
+ server-conda.yaml  为conda 需要的创建虚拟环境的yaml
+
+2、安装后,需要修改aiomysql包中的源代码，否则无法执行aiomysql的查询语句， aiomysql/sa/result.py 中删除116 117 两行
+
+
+3、根据情况修改 etc/config.ini (现阶段需要配置mysql 项和 gitlab项)。 另mysql 密码中不能含有‘@’, 此bug 暂时为解决
+
+4、创建数据库后，执行init.py 脚本，初始化数据库表结构
+
+5、再运行main.py 主程序

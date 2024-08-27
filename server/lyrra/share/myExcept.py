@@ -22,7 +22,7 @@ class MyException(Exception):
         },
         '402': {
             'code': 402,
-            'message': "token 问题或过期"
+            'message': "token问题或过期"
         },
         '500': {
             'code': 500,
