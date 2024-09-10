@@ -88,6 +88,13 @@ class MyTable:
             sa.Column("commit", sa.String(255), server_default="noCommit")
         )
 
+        self.t_globallock=sa.Table(
+            "t_globallock",
+            metadata,
+            sa.Column("id", sa.Integer, primary_key=True, autoincrement=True),
+            sa.Column("name", sa.String(255), unique=True)
+        )
+
     def createTable(self):
         engine = sa.create_engine(
             'mysql+pymysql://%s:%s@%s:%s/%s' % (self.user, self.passwd, self.ip, self.port, self.db))
