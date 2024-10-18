@@ -41,7 +41,8 @@ class AppHandle(Ui_appHandleWidget):
         data = []
         for fabu in self.fabus['fabu']:
             data.append(fabu['appName'])
-        data = set(data)
+        data = list(set(data))
+        data.sort()
         for i in data:
             self.appNameComboBox.addItem(i)
 
